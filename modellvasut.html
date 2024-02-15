@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minden ami vasút</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="bootstrap.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" id="nav">
+      <div class="container">
+        <a class="navbar-brand" href="/">Minden ami vasút</a>
+        <button class="navbar-toggler" Type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index_new.html">Főodal</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Modellvasút
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="modellvasut.html#mozdony">Mozdonyok</a></li>
+                <li><a class="dropdown-item" href="modellvasut.html#kocsik">Kocsik</a></li>   
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nagyvasút
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="nagyvasut.html#mozdony2">Mozdonyok</a></li>
+                <li><a class="dropdown-item" href="nagyvasut.html#kocsik2">Kocsik</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galéria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reg (1).html">Fórum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index_new.html#kapcsolat">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>    
+      </div>
+    </nav>
+    <div class="container" data-bs-spy="scroll" data-bs-target="#nav">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/MicrosoftTeams-image.jpeg" class="d-block w-100" alt="1" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/MicrosoftTeams-image(1).jpeg" class="d-block w-100" alt="2" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/MicrosoftTeams-image(2).jpeg" class="d-block w-100" alt="3" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/asd.jpeg" class="d-block w-100" alt="3" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/asd2.jpg" class="d-block w-100" alt="3" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/20220826-IMG_4897.jpg" class="d-block w-100" alt="3" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/asd4.jpg" class="d-block w-100" alt="3" style="aspect-ratio: 16/9; object-fit: cover;">
+            </div>
+          </div>
+          <div id="mozdony" class="mt-4" style="border-radius: 20px 40px 20px 40px;">
+            <h1 class="mb-4 text-center p-0 h1-1">Mozdonyok</h1>
+            <div class="row">
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20220826-IMG_4901.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> MÁV M43 "Dácsia"</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                    <a href="https://hu.wikipedia.org/wiki/M%C3%81V_M43_sorozat" class="card-link">Az eredeti mozdony</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20220826-IMG_4858.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> MÁV M41 "Csörgő"</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                    <a href="https://hu.wikipedia.org/wiki/M%C3%81V_M41_sorozat" class="card-link">Az eredeti mozdony</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20220826-IMG_4873.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">GYSEV M41 "Csörgő"</h5>    
+                    <a href="#" class="card-link">A modellről...</a>
+                    <a href="https://hu.wikipedia.org/wiki/M%C3%81V_M41_sorozat" class="card-link">Az eredeti mozdony</a>              
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20220826-IMG_4876.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV 470 "Taurus"</h5>
+    
+                    <a href="#" class="card-link">A modellről...</a>
+                    <a href="https://hu.wikipedia.org/wiki/M%C3%81V_470_sorozat" class="card-link">Az eredeti mozdony</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20220826-IMG_4899.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV 117 "Bzmot"</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                    <a href="https://hu.wikipedia.org/wiki/Bzmot" class="card-link">Az eredeti mozdony</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20220826-IMG_4914.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV 480 "Traxx"</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                    <a href="https://hu.wikipedia.org/wiki/M%C3%81V_480_sorozat" class="card-link">Az eredeti mozdony</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20220826-IMG_4923.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV M61 "Nohab"</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                    <a href="https://hu.wikipedia.org/wiki/M%C3%81V_M61_sorozat" class="card-link">Az eredeti mozdony</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20220826-IMG_4937.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV M62 "Szergej"</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                    <a href="https://hu.wikipedia.org/wiki/M%C3%81V_M62_sorozat" class="card-link">Az eredeti mozdony</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="kocsik" class="mt-4" style="border-radius: 20px 40px 20px 40px;">
+            <h1 class="mb-4 text-center p-0 h1-1">Kocsik</h1>
+            <div class="row">
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/20230830112225_Szemelyvagon_2_osztaly.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> MÁV Bd személykocsi</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/MED_0017375804.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"> MÁV Bhv személykocsi</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/products-408102CAF.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">GYSEV M41 "Csörgő"</h5>
+                        <a href="#" class="card-link">A modellről...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/products-Fugg.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV Bdt vezérlőkocsi</h5>
+                    <a href="#" class="card-link">A modellről...</a>            
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/Roco_56270.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV Es teherkocsi</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/roco-76404-onuritos-teherkocsi-tadgs-railcargo-hungaria-vi-656032.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV Tadgs teherkocsi</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/roco-76969-nyitott-teherkocsi-eas-mav-v-742021.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV Eas teherkocsi"</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-auto col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card" style="width: 100%;">
+                  <img src="./img/roco-77684-rungenw-res-mav-673087.jpg" class="card-img-top" style="aspect-ratio: 4/3; object-fit: cover;" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MÁV Res teherkocsi</h5>
+                    <a href="#" class="card-link">A modellről...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+      </footer>
+      <div class="" style="margin-left: auto; margin-right: auto; text-align: center;">
+        <div>
+          <a href="https://youtube.com/@heroesvolgy?si=rdByWDRBxhBExUIN">
+            <img src="img/hd-youtube-logo-png-transparent-background-20.png" alt="YouTube" height=60rem>
+          </a>
+          <a href="https://www.instagram.com/alex.kovacsevics/#">
+            <img src="img/580b57fcd9996e24bc43c521.png" alt="Instagam" height=50rem>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100024628098650&__cft__[0]=AZVvJ03mDrUc7IHTngKCLWUzCcSIohXRbABf62BFZR6WMGVcbfi0scqgAJE1Rc-3aZj7UiP1wlPsGJQG8Ogbrk207ApinXxaBH-giyADjd5kAR2_HEzXtXEOgzt6OUO1onsbd9dVw-uJpCtGwkpI7RjsesttGAvO-OMv6O5b_-UcRvfYbn2O_WRyKh6E1IaUICh1Er9LZn-2BMY6UyWoKVj0&__tn__=-UC%2CP-R">
+            <img src="img/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png" alt="Facebook" height=50rem>
+          </a>
+        </div>
+        <div class=""><a src="img/unnamed.jpg" href="" class=""></div>
+        <br/><br/>
+      </div>
+    </div>
+    <script src="script.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
